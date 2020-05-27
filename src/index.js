@@ -8,6 +8,7 @@ export ListGuesser from './ListGuesser';
 export ResourceGuesser from './ResourceGuesser';
 export SchemaAnalyzerContext from './SchemaAnalyzerContext';
 export ShowGuesser from './ShowGuesser';
+export { dataProvider as graphqlDataProvider } from './graphql';
 export {
   HydraAdmin,
   dataProvider as hydraDataProvider,
